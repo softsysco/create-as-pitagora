@@ -1,0 +1,55 @@
+###################################################
+# Syntax Coloring Map Grove_AS3935Lightning_sensor
+###################################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GROVEAS3935	KEYWORD1	LIBRARY
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+gainAS3935	KEYWORD2	 
+setDefault	KEYWORD2 
+calibrateAuto	KEYWORD2  
+writeToAS3935	KEYWORD2  
+readFromAS3935	KEYWORD2 
+calculateIntensity	KEYWORD2 
+frontDistance	KEYWORD2 
+getNoise	KEYWORD2 
+scanSensor	KEYWORD2 
+maskON	KEYWORD2 
+maskOFF	KEYWORD2 
+setOutdoor	KEYWORD2 
+setIndoor	KEYWORD2 
+powerDwn	KEYWORD2 
+powerUpn	KEYWORD2 
+clearStatOn	KEYWORD2  
+clearStatOff	KEYWORD2 
+setIrqfreq	KEYWORD2  
+setIrqEvent	KEYWORD2   
+tuneCapacitor 	KEYWORD2
+noiseFloorLevel KEYWORD2
+watchDogLevel 	KEYWORD2
+lightningNum 	KEYWORD2
+rejectionSpike 	KEYWORD2
+noiseFloorLevel	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SET_INDOOR	LITERAL1
+SET_OUTDOOR	LITERAL1
+IRQ_LCO	LITERAL1
+IRQ_LIGHTNING	LITERAL1
+MASK_ON	LITERAL1
+MASK_OFF	LITERAL1
+POWER_DOWN	LITERAL1
+POWER_UP	LITERAL1
+CLEAR_STAT_ON	LITERAL1
+CLEAR_STAT_OFF	LITERAL1
+CALIBRATE_AUTO	LITERAL1
+SET_DEFAULT	LITERAL1
